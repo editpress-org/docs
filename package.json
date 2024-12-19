@@ -1,0 +1,19 @@
+{
+  "name": "rspress-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "rspress dev",
+    "build": "rspress build",
+    "check": "biome check --write",
+    "format": "biome format --write",
+    "preview": "rspress preview"
+  },
+  "dependencies": {
+    "rspress": "^1.37.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@types/node": "^18.11.17"
+  }
+}
