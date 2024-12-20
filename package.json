@@ -1,9 +1,9 @@
 {
-  "name": "rspress-docs",
+  "name": "editpress-docs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "docs:dev": "rspress dev",
+    "docs:dev": "rspress dev --port 8080",
     "build": "rspress build",
     "check": "biome check --write",
     "format": "biome format --write",
